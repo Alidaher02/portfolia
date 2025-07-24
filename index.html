@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Document</title>
+</head>
+<body class="bg-[#0f172a] text-white">
+  <header class="sm:flex sm:items-center justify-between p-4 hidden">
+    <h1 class="font-bold text-blue-500">Ali Daher</h1>
+    <nav class="list-none sm:flex text-white space-x-3 hidden">
+      <li><a href="">Projects</a></li>
+      <li><a href="">Tech Stack</a></li>
+      <li><a href="">Contact</a></li>
+    </nav>
+    <div class=" sm:flex sm:items-center sm:gap-2">
+      <a class="px-3 py-2 bg-transparent border-gray-700 border rounded-lg "href=""><i class="fa-regular fa-moon"></i></a>
+      <a class="px-4 py-2 bg-blue-500 rounded-lg  " href="">Resume</a>
+
+    </div>
+  </header>
+  <header class="sm:hidden flex justify-between p-5 items-center  relative">
+    <h1 class="font-bold text-blue-500">Ali Daher</h1>
+    <div class="">
+      <button id="menu-btn" class=" text-lg px-3 py-1  bg-transparent border-gray-700 border rounded-lg"><i class="fa-solid fa-bars"></i></button>
+      <div id="menu" class="">
+      <nav  class="flex list-none absolute bg-[#0f172a] top-0 left-0 w-full  flex-col justify-center items-center gap-5 ">
+        <div class="flex  self-start p-5 px-6 font-bold text-blue-500"><h1>Ali Daher </h1></div>
+
+        <li><a href="">Projects</a></li>
+        <li><a href="">Tech Stack</a></li>
+        <li><a href="">Contact</a></li>
+        <a class="px-32 py-2 bg-blue-500 rounded-lg  " href="">Resume</a>
+        
+      </nav>
+      <div class="">
+
+        <button id="closebtn" class="text-lg px-3 py-1  bg-transparent border-gray-700 border rounded-lg absolute top-0 right-0 mt-4 mr-4"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+    </div>
+
+  </header>
+     <script src="script.js"></script>
+ 
+</body>
+</html>
